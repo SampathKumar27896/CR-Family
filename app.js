@@ -1,3 +1,4 @@
+'use strict';
 const express = require('express');
 const routes = require('./routes/player');
 var ejs = require('ejs');
