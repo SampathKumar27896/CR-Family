@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CR-Family</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+    <body class="container">
+        <div class="outer_wrap">
+            <center>Players Info</center>
+            <div class="row">
+                <? if(player_info) {?>
+                    <? for(var i = 0; i < player_info.length; i++) { ?>
+                         <div class="col-md border-bottom">
+                             <label>Name :</label><?= player_info[i].name ?><br>
+                             <label>Exp Level :</label><?= player_info[i].expLevel ?><br>
+                             <label>Trophies :</label><?= player_info[i].trophies ?><br>
+                             <label>Wins :</label><?= player_info[i].wins ?><br>
+                             <label>Loses :</label><?= player_info[i].losses ?><br>
+                         </div>
+                     <? } ?>
+                 <?} ?>
+            </div>
+        </div>
+    </body>
+</html>
