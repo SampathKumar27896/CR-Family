@@ -1,7 +1,0 @@
-{
-    "api": {
-        "auth_token" : "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImU0MGI2N2M3LTlmYmQtNDQ5OC1hMmMyLWE3MmE5YWE0NzVkZSIsImlhdCI6MTU4OTcwMjczNiwic3ViIjoiZGV2ZWxvcGVyLzE4MGZiNDg1LTBhNjYtMWNkOC04MzZhLTUzNzlkNDBmMGE1ZSIsInNjb3BlcyI6WyJyb3lhbGUiXSwibGltaXRzIjpbeyJ0aWVyIjoiZGV2ZWxvcGVyL3NpbHZlciIsInR5cGUiOiJ0aHJvdHRsaW5nIn0seyJjaWRycyI6WyIyMjMuMTgyLjE5NS4xODAiXSwidHlwZSI6ImNsaWVudCJ9XX0.BlRICIpTlfzp_LvO7Mwxiz4pIVgR7_TAm0Npy9YKYYV3GjyXtTznqVZqYgrTgl5YvNd57rKnBMsfCVjZd7if_g",
-        "base_url" : "api.clashroyale.com",
-        "player_info_url" : "/v1/players/"
-    }
-}
