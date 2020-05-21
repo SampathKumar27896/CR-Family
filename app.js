@@ -12,6 +12,6 @@ app.use(favicon(__dirname + '/public/images/favicon.ico'));
 
 
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log("Server is ready");
 })
