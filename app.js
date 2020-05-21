@@ -3,12 +3,12 @@ const express = require('express');
 const routes = require('./routes/player');
 var ejs = require('ejs');
 const app = express();
-const favicon = require('express-favicon');
+
 app.use(routes);
 app.set('view engine', 'ejs');
 app.set('view options', {delimiter: '?'});
 app.use(express.static(__dirname + '/public'));
-app.use(favicon(__dirname + '/public/favicon.ico'));
+
 
 
 
