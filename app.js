@@ -8,7 +8,7 @@ app.use(routes);
 app.set('view engine', 'ejs');
 app.set('view options', {delimiter: '?'});
 app.use(express.static(__dirname + '/public'));
-app.use(favicon(__dirname + '/public/images/favicon.ico'));
+app.use(favicon(__dirname + '/public/favicon.ico'));
 
 
 
